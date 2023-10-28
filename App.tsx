@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import NewTodo from './src/components/todo/newTodo';
-import Main from './src/components/container/main';
+import Main from './src/components/container';
 import { Provider } from 'react-redux';
 import { store } from './src/store';
 
